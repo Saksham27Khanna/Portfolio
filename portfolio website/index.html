@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: rgb(0,0,33);
+            color: white;
+           font-family:"Poppins", sans-serif;;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color:rgb(8, 102, 97)
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            list-style: none;
+            margin:0 23px; 
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;        
+        }
+
+            nav ul li a:hover {
+           color: rgb(141, 141, 231);   
+           font-size: 1.04rem;  
+         }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+            align-items: center;
+        }
+        .leftsection{
+           font-size: 3rem;
+        }
+    .btn1{
+           border: 2px solid white;
+           background-color: #6e6edb;
+           color: white;
+           border-radius: 6px;
+           padding: 10px;
+           font-size: 20px;
+           cursor: pointer;
+        }
+        .btn2{
+           border: 2px solid white;
+           background-color: #6e6edb;
+           color: white;
+           border-radius: 6px;
+           padding: 10px;
+           font-size: 20px;
+           cursor: pointer;
+        }
+        .btn2:hover{
+            background-color:#8686f7;;
+        }
+        .btn1:hover{
+            background-color: #8686f7;
+        }
+        
+
+        .firstsection > div{
+            width: 30%;
+         
+        }
+        .rightsection img{
+           
+            width:80%
+        }
+        .purple{
+            color: rgb(170, 114, 223);
+        }
+        #element{
+            color: rgb(170, 114, 223);
+        }
+        .secondsection{
+            margin: auto;
+            max-width: 80vw;
+            height: 80vh;
+        }
+      main hr{
+            margin: 60px 84px;
+            background: red;
+            height: 1px;
+     
+        }
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+        .text-gray{
+            color: gray;
+        }
+        .box{
+            background-color: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0px;
+            display: flex;
+        }
+        .vertical{
+            height: 95px;
+            width: 1px;
+            background-color: white;
+            margin: 0px 120px;
+        }
+        .vertical-text{
+            position: relative;
+            top:75px;
+            width: 150px;
+            font-size: 14px;
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .footer{
+            display: flex;
+            height: 233px;
+            background-color: #0e0e1a;
+            padding: 23px 123px;
+            justify-content: space-evenly;
+            margin-bottom: -3rem;
+        }
+        .footer > div{
+            width: 123px;
+        }
+        .text-center{
+            
+            text-align: center;
+            color: gray;
+        }
+   
+    </style>
+</head>
+<body >
+    <header>
+        <nav>
+            <div class="left">Saksham's portfolio</div>
+            <div class="right">
+                <ul>
+                     <li><a href="/"> </a></li>
+                     <li><a href="/">About</a></li>
+                     <li><a href="/">Services</a></li>
+                     <li><a href="/">Projects</a></li>
+                     <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi,My name is <span class="purple">Saksham</span> 
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <div class="butttons">
+                    <button class="btn1">Download Resume</button>
+                    <button class="btn2">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection"><img src="bp.jpg" alt="">
+            </div>
+        </section>
+        <hr >
+        <section class="secondsection">
+            <span class="text-gray">What I Have Done so far</span>
+            <h1>Work Experience </h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="https://logos-world.net/wp-content/uploads/2020/09/Pinterest-Logo-2011-present.png" alt="">
+                    <div class="vertical-text">HTML Developer Pintrest (2010-2012)
+                    </div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quasi amet est, ipsam pariatur exercitationem illum in eligendi! Fugiat dolorem itaque eaque deleniti.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://1.bp.blogspot.com/-S8HTBQqmfcs/XN0ACIRD9PI/AAAAAAAAAlo/FLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw/s1600/f_logo_RGB-Blue_1024.png" alt="">
+                    <div class="vertical-text">Node js  Developer Facebook(2012-2014)</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quasi amet est, ipsam pariatur exercitationem illum in eligendi! Fugiat dolorem itaque eaque deleniti.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://tse4.mm.bing.net/th?id=OIP.HFozb8Qd6v9IxHaR546-KAHaHa&pid=Api&P=0&h=220" alt="">
+                    <div class="vertical-text">HTML Developer Developer Instagram(2014-2015)</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quasi amet est, ipsam pariatur exercitationem illum in eligendi! Fugiat dolorem itaque eaque deleniti.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://tse3.mm.bing.net/th?id=OIP._Nlqv4LX_KauLZI5Oe56lgHaFG&pid=Api&P=0&h=220" alt="">
+                    <div class="vertical-text">HTML Developer Twitter(2015-2016)</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quasi amet est, ipsam pariatur exercitationem illum in eligendi! Fugiat dolorem itaque eaque deleniti.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://1.bp.blogspot.com/-S8HTBQqmfcs/XN0ACIRD9PI/AAAAAAAAAlo/FLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw/s1600/f_logo_RGB-Blue_1024.png" alt="">
+                    <div class="vertical-text">HTML Developer Facebook(2016-2017)</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quasi amet est, ipsam pariatur exercitationem illum in eligendi! Fugiat dolorem itaque eaque deleniti.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://tse2.mm.bing.net/th?id=OIP.4Pcrny-TxrjASTr1GEHbUAHaEK&pid=Api&P=0&h=220" alt="">
+                    <div class="vertical-text">Software Developer YouTube(2017-2023)</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia quasi amet est, ipsam pariatur exercitationem illum in eligendi! Fugiat dolorem itaque eaque deleniti.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div  class="footer">
+            <div class="footer-first">
+                <h3>Saksham's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">   <h3>Having Portfolio</h3></div>
+            <div class="footer-third">   <h3>Containing Portfolio</h3></div>
+            <div class="footer-fourth">   <h3>Original Portfolio</h3></div>
+        </div>
+        <div class="text-center">
+            www.saksham'sportfolio | All Rights Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer','Web Designer','Video Editor'],
+          typeSpeed: 50,
+        }
+        );
+      </script>
+</body>
+</html>
